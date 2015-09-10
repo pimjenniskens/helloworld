@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1.1</title>
+    <link rel="stylesheet" href="stijl.css">
+</head>
+<body>
+    <h1>Aanmelden</h1>
+
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+    Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+    <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. !
+    Voor vragen of opmerkingen kunt u <a href="http://www.hva.nl/onderwijs/themas/content/nl/design-en-creatie/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/meer-informatie/contact/contact-en-locatie.html">contact</a> met ons opnemen.</p>
+
+    <form action="http://www.hva.nl/aanmelden">
+       <ul>
+        <li>
+            <input type="text" name="naam" placeholder="Naam">
+        </li>
+        <li>
+            <input type="text" name="bedrijf" placeholder="Bedrijf">
+        </li>
+        <li>
+            <input type="text" name="adres" placeholder="Adres">
+        </li>
+        <li>
+            <input type="text" name="postcode" placeholder="Postcode" maxlength="6">
+        </li>
+        <li>
+            <input type="text" name="plaats" placeholder="Plaats">
+        </li>
+        <li>
+            <input type="text" name="telefoon" placeholder="Telefoon">
+        </li>
+        <li>
+            <input type="text" name="email" placeholder="Email">
+        </li>
+      </ul>
+    </form>
+
+    <p>Ik wil mij aanmelden:</p>
+    <form action="http://www.hva.nl/aanmelden">
+    <input type="radio" name="aanmelden" value="project">Voor een project<br>
+    <input type="radio" name="aanmelden" value="stage">Als stagebedrijf
+    </form><br>
+
+
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Stage</th>
+        </tr>
+        <tr>
+            <td>
+                <form action="http://www.hva.nl/aanmelden">
+                    <ol>
+                       <li>
+                           <input type="text" name="titel" placeholder="Titel">
+                       </li>
+                       <li>
+                           <input type="text" name="opdrachtomschrijving" placeholder="Opdrachtomschrijving">
+                       </li>
+                       <li>
+                           <input type="text" name="doelgroepomschrijving" placeholder="Doelgroepomschrijving">
+                       </li>
+                       <li>
+                           <input type="text" name="doelstelling/intentie van het project" placeholder="Doelstelling/intentie van het project">
+                       </li>
+                       <li>
+                           <input type="text" name="looptijd" placeholder="Looptijd">
+                       </li>
+                       <li>
+                           <input type="text" name="deadline" placeholder="Deadline">
+                       </li>
+                    </ol>
+                </form>
+            </td>
+            <td>
+               <ol>
+                <li>
+                    <input type="radio" name="geschikt" value="tweedejaars">Tweedejaars studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="afstudeer">Afstudeer studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="onbekend">Onbekend<br>
+                </li>
+               </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <p>geschikt voor</p>
+               <ol>
+                <li>
+                    <input type="radio" name="geschikt" value="eerstejaars">Eerstejaars studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="tweedejaars">Tweedejaars studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="derdejaars">Derdejaars studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="afstudeer">Afstudeer studenten<br>
+                </li>
+                <li>
+                    <input type="radio" name="geschikt" value="onbekend">Onbekend<br>
+                </li>
+               </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Hoe lang is de stage?
+                        <form action="http://www.hva.nl/aanmelden">
+                            <input type="radio" name="aanmelden" value="10">10 weken<br>
+                            <input type="radio" name="aanmelden" value="20">20 weken
+                        </form>
+                    </li>
+                    <li>
+                        <form action="http://www.hva.nl/aanmelden">
+                            <input type="text" name="begindatum" placeholder="Begin datum">
+                        </form>
+                    </li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+               <form action="http://www.hva.nl/aanmelden">
+                    <ol>
+                        <li>
+                            <input type="text" name="stagewerkzaamheden" placeholder="Beschrijving stagewerkzaamheden">
+                        </li>
+                    </ol>
+               </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
